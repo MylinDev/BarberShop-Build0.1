@@ -1,0 +1,80 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column; /*pra um ficar em baixo do outro*/
+  padding-top: 100px;   
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Espaçamento entre os elementos do formulário */
+  padding: 30px;
+  border-radius: 10px;
+  background-color:  rgba(8, 8, 8, 1); /* Cor de fundo semi-transparente */
+  max-width: 50%;
+  width: 500px;
+  margin-bottom: 20px;
+  }
+
+form input {
+  padding: 10px; /* Espaçamento interno dos campos de entrada */
+  border: 1px solid #c50e0e;
+  border-radius: 5px;
+  background-color: linear-gradient(180deg, #1403ad 0%,rgba(167, 34, 30, 0.8) 100%); /* Cor de fundo dos campos de entrada */
+  color: #333; /* Cor do texto dentro dos campos de entrada */
+}
+
+form button {
+  border-radius: 30px;
+  background-color: rgba(218, 218, 219, 0.849);
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.7;
+}
+
+.trash-icon {
+  width: 20px;  /* Defina a largura desejada */
+  height: 20px; /* Defina a altura desejada */
+
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  background-color: #362923;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+
+  & p {
+    color: #fff;
+    font-weight: bold;
+    & span {
+      font-weight:lighter;
+    }
+  }
+
+  & button {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+  }
+  & button:hover {
+    opacity: 0.4;
+  }
+}
+
+

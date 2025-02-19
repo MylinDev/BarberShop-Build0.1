@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif; /*Peguei no google fonts*/
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(0deg, #000000 0%, rgba(117, 110, 110, 0) 100%), url('assets/background.jpg'); /* Combina a cor de fundo com a imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-position: center 14%; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
